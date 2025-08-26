@@ -1,0 +1,42 @@
+/* custom.css */
+# this here css was written by gemini 
+
+/* custom.css (Revised and more robust) */
+
+/* custom.css (Final version for better text handling) */
+
+.reveal .slides section {
+  display: flex;
+  flex-direction: column;
+  /* KEY FIX: Align content to the TOP of the slide, not the center. */
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+.reveal .slides section img {
+  /* A slightly smaller height to leave more room for text by default. */
+  height: 60vh !important;
+  width: auto !important;
+  max-width: 90%;
+  object-fit: contain;
+  margin-top: 20px;    /* Add some space at the top */
+  margin-bottom: 20px; /* Space between image and text */
+  border: none;
+  box-shadow: none;
+  
+  /* This tells the image not to shrink if space gets tight. */
+  flex-shrink: 0;
+}
+
+/* This targets common text elements like paragraphs and lists. */
+.reveal .slides section > p,
+.reveal .slides section > ul,
+.reveal .slides section > ol {
+  /* This tells the text block it's okay to shrink. */
+  flex-shrink: 1;
+  /* If the text is still too long, add a vertical scrollbar. */
+  overflow-y: auto;
+  /* Give the text block a maximum height to not push off the slide. */
+  max-height: 25vh;
+}

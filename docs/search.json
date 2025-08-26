@@ -4,21 +4,21 @@
     "href": "csv_slides.html#the-carpentries-paradigm",
     "title": "Local Geospatial Data Carpentry: an R Atlas of Campus",
     "section": "The Carpentries Paradigm",
-    "text": "The Carpentries Paradigm\n\nLive coding: We teach by doing, typing code in real-time.\nWorkshops: Intensive, hands-on learning over 16 - 24 hours.\nLessons: Focused modules, typically 2 - 14 hours.\nEpisodes: Bite-sized chunks, under 2 hours each.\n\n\nA map of the UCSB campus showing different data layers."
+    "text": "The Carpentries Paradigm\n\nLive coding: We teach by doing, typing code in real-time.\nWorkshops: Intensive, hands-on learning over 16 - 24 hours.\nLessons: Focused modules, typically 2 - 14 hours.\nEpisodes: Bite-sized chunks, under 2 hours each.\n\n\n."
   },
   {
     "objectID": "csv_slides.html#with-a-dash-of",
     "href": "csv_slides.html#with-a-dash-of",
     "title": "Local Geospatial Data Carpentry: an R Atlas of Campus",
     "section": "With a Dash Of…",
-    "text": "With a Dash Of…\n\nOpenness: We lean heavily on open-source tools like R and Python.\nA Work in Progress: We’re actively improving how we teach reproducibility and project management."
+    "text": "With a Dash Of…\n\nOpenness: We lean heavily on open-source tools like R and Python.\nA Work in Progress: We’re actively improving how we teach reproducibility and project management.\nEating our own dogfood: We use Carpentries materials to teach Carpentries skills. (and I’ve never used quarto slides before)\n\n\nCharlotte, adoptable # A544520"
   },
   {
     "objectID": "csv_slides.html#the-beginning",
     "href": "csv_slides.html#the-beginning",
     "title": "Local Geospatial Data Carpentry: an R Atlas of Campus",
     "section": "2019: The Beginning",
-    "text": "2019: The Beginning\n\nFresh from Carpentries Instructor training.\nZero experience with GitHub or GitHub Pages.\nExtremely rusty (&gt; 10 years) geostatistical R skills.\n\nIt was a steep learning curve!"
+    "text": "2019: The Beginning\n\nFresh from Carpentries Instructor training\nZero experience with GitHub or GitHub Pages\nExtremely rusty (&gt; 10 years) geostatistical R skills\n\nIt was a steep learning curve!\n\nNonlinear graticules, missing data"
   },
   {
     "objectID": "csv_slides.html#where-we-are-now",
@@ -28,18 +28,25 @@
     "text": "2025: Where We Are Now\n\nRunning The Carpentries Workbench independently from a cloud-hosted Linux machine with RStudio.\nMaintainer and ad hoc chair of a committee editing a lesson from 2019.\nFrequently arguing with Gemini and Copilot about their… creative… code suggestions.\n\n\nMap 1. 7 layers"
   },
   {
+    "objectID": "csv_slides.html#how-did-we-get-here",
+    "href": "csv_slides.html#how-did-we-get-here",
+    "title": "Local Geospatial Data Carpentry: an R Atlas of Campus",
+    "section": "How did we get here?",
+    "text": "How did we get here?\n\nDedicated time and personnel Scheduled, weekly sessions\nStrong local data sources Campus recently renovated a golf course into an open space.\nExisting materials We built on an existing Carpentries lesson.\n\n\n??"
+  },
+  {
     "objectID": "csv_slides.html#overall-strategy-reproducible-runnable-open-and-local",
     "href": "csv_slides.html#overall-strategy-reproducible-runnable-open-and-local",
     "title": "Local Geospatial Data Carpentry: an R Atlas of Campus",
     "section": "Overall Strategy: Reproducible, Runnable, Open, and Local",
-    "text": "Overall Strategy: Reproducible, Runnable, Open, and Local\nOur goal is to create learning materials that are: - Properly Reproducible: Anyone can regenerate the results. - Runnable: The code works out-of-the-box. - Open: All materials are publicly accessible and licensed for reuse. - Local: The context and data are relevant to our community."
+    "text": "Overall Strategy: Reproducible, Runnable, Open, and Local\nOur goal is to create learning materials that are: - Properly Reproducible: Anyone can regenerate the results. - Runnable: The code works out-of-the-box. - Open: All materials are publicly accessible and licensed for reuse. - Local: The context and data are relevant to our community.\n\nEucalyptus, aka: tiki torches"
   },
   {
     "objectID": "csv_slides.html#technical-implementation",
     "href": "csv_slides.html#technical-implementation",
     "title": "Local Geospatial Data Carpentry: an R Atlas of Campus",
     "section": "Technical Implementation",
-    "text": "Technical Implementation\n\nrun_all_episodes.R: A script to run the entire lesson from start to finish.\nrun_all_maps.R: A script to generate all map figures.\nClean Environments: We unload libraries and clear objects between each episode to ensure there are no hidden dependencies.\nBest-Practice Project Organization: A clear and consistent folder structure.\n\nCheck out the repository: UCSBCarpentry/ucsb-ratlas"
+    "text": "Technical Implementation\n\nrun_all_episodes.R: A script to run the entire lesson from start to finish.\nrun_all_maps.R: A script to generate all map figures.\nClean Environments: We unload libraries and clear objects between each episode to ensure there are no hidden dependencies. rm(list=ls())\nBest-Practice Project Organization: A clear and consistent folder structure.\n\nCheck out the repository: UCSBCarpentry/ucsb-ratlas"
   },
   {
     "objectID": "csv_slides.html#the-power-of-local",

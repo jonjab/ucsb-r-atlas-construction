@@ -29,7 +29,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-2f366650f320edcfcf53d73c80250a32.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-149430735ab8ae1e10ef3ddc1d2a861e.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -138,7 +138,7 @@ UCSB Carpentry, Jon Jablonski
 </div>
 
 </section>
-<section id="the-carpentries-paradigm" class="slide level2">
+<section id="the-carpentries-paradigm" class="slide level2 smaller">
 <h2>The Carpentries Paradigm</h2>
 <ul>
 <li><strong>Live coding</strong>: We teach by doing, typing code in real-time.</li>
@@ -147,47 +147,60 @@ UCSB Carpentry, Jon Jablonski
 <li><strong>Episodes</strong>: Bite-sized chunks, under 2 hours each.</li>
 </ul>
 
-<img data-src="https://raw.githubusercontent.com/UCSBCarpentry/ucsb-ratlas/main/fig/01-intro-map-1.png" class="r-stretch quarto-figure-center"><p class="caption">A map of the UCSB campus showing different data layers.</p></section>
-<section id="with-a-dash-of" class="slide level2">
+<img data-src="images/carpentries.png" class="r-stretch quarto-figure-center"><p class="caption">.</p></section>
+<section id="with-a-dash-of" class="slide level2 smaller">
 <h2>With a Dash Of…</h2>
 <ul>
 <li><strong>Openness</strong>: We lean heavily on open-source tools like R and Python.</li>
 <li><strong>A Work in Progress</strong>: We’re actively improving how we teach reproducibility and project management.</li>
+<li><strong>Eating our own dogfood</strong>: We use Carpentries materials to teach Carpentries skills. (and I’ve never used quarto slides before)</li>
 </ul>
-</section>
-<section id="the-beginning" class="slide level2">
+
+<img data-src="images/charlotte.jpg" class="r-stretch quarto-figure-center"><p class="caption">Charlotte, adoptable # A544520</p></section>
+<section id="the-beginning" class="slide level2 smaller">
 <h2>2019: The Beginning</h2>
 <ul>
-<li>Fresh from Carpentries Instructor training.</li>
-<li>Zero experience with GitHub or GitHub Pages.</li>
-<li>Extremely rusty (&gt; 10 years) geostatistical R skills.</li>
+<li>Fresh from Carpentries Instructor training</li>
+<li>Zero experience with GitHub or GitHub Pages</li>
+<li>Extremely rusty (&gt; 10 years) geostatistical R skills</li>
 </ul>
 <p>It was a steep learning curve!</p>
-</section>
-<section id="where-we-are-now" class="slide level2">
+
+<img data-src="images/map6.0.png" class="r-stretch quarto-figure-center"><p class="caption">Nonlinear graticules, missing data</p></section>
+<section id="where-we-are-now" class="slide level2 smaller">
 <h2>2025: Where We Are Now</h2>
 <ul>
 <li>Running The Carpentries Workbench independently from a cloud-hosted Linux machine with RStudio.</li>
-<li>Maintainer and ad hoc chair of a committee editing a lesson from 2019.</li>
+<li>Maintainer and <em>ad hoc</em> chair of a committee editing a lesson from 2019.</li>
 <li>Frequently arguing with Gemini and Copilot about their… <em>creative</em>… code suggestions.</li>
 </ul>
 
 <img data-src="images/map_01.png" class="r-stretch quarto-figure-center"><p class="caption">Map 1. 7 layers</p></section>
-<section id="overall-strategy-reproducible-runnable-open-and-local" class="slide level2">
+<section id="how-did-we-get-here" class="slide level2 smaller">
+<h2>How did we get here?</h2>
+<ul>
+<li><strong>Dedicated time and personnel</strong> Scheduled, weekly sessions</li>
+<li><strong>Strong local data sources</strong> Campus recently renovated a golf course into an open space.</li>
+<li><strong>Existing materials</strong> We built on an existing Carpentries lesson.</li>
+</ul>
+
+<img data-src="images/map7_row_1.png" class="r-stretch quarto-figure-center"><p class="caption">??</p></section>
+<section id="overall-strategy-reproducible-runnable-open-and-local" class="slide level2 smaller">
 <h2>Overall Strategy: Reproducible, Runnable, Open, and Local</h2>
 <p>Our goal is to create learning materials that are: - <strong>Properly Reproducible</strong>: Anyone can regenerate the results. - <strong>Runnable</strong>: The code works out-of-the-box. - <strong>Open</strong>: All materials are publicly accessible and licensed for reuse. - <strong>Local</strong>: The context and data are relevant to our community.</p>
-</section>
-<section id="technical-implementation" class="slide level2">
+
+<img data-src="images/map_02.png" class="r-stretch quarto-figure-center"><p class="caption">Eucalyptus, aka: tiki torches</p></section>
+<section id="technical-implementation" class="slide level2 smaller">
 <h2>Technical Implementation</h2>
 <ul>
 <li><code>run_all_episodes.R</code>: A script to run the entire lesson from start to finish.</li>
 <li><code>run_all_maps.R</code>: A script to generate all map figures.</li>
-<li><strong>Clean Environments</strong>: We unload libraries and clear objects between each episode to ensure there are no hidden dependencies.</li>
+<li><strong>Clean Environments</strong>: We unload libraries and clear objects between each episode to ensure there are no hidden dependencies. <code>rm(list=ls())</code></li>
 <li><strong>Best-Practice Project Organization</strong>: A clear and consistent folder structure.</li>
 </ul>
 <p>Check out the repository: <a href="https://github.com/UCSBCarpentry/ucsb-ratlas">UCSBCarpentry/ucsb-ratlas</a></p>
 </section>
-<section id="the-power-of-local" class="slide level2">
+<section id="the-power-of-local" class="slide level2 smaller">
 <h2>The Power of “Local”</h2>
 <ul>
 <li><strong>Data Sources</strong>: We use readily available campus and public data.
@@ -201,7 +214,7 @@ UCSB Carpentry, Jon Jablonski
 </ul>
 
 <img data-src="images/map_02.png?raw=true" class="r-stretch quarto-figure-center"><p class="caption">Red trees are highly flammable eucalytpus.</p></section>
-<section id="why-local-matters" class="slide level2">
+<section id="why-local-matters" class="slide level2 smaller">
 <h2>Why Local Matters</h2>
 <ul>
 <li><strong>Outreach &amp; Awareness</strong>: It highlights amazing local resources.</li>

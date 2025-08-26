@@ -1,56 +1,74 @@
 ---
 title: "Local Geospatial Data Carpentry: an R Atlas of Campus"
 author: "UCSB Carpentry, Jon Jablonski"
-format: revealjs
-output-dir: docs
-title-slide-attributes:
-  data-background-image: /images/web-hex.png
-  data-background-size: contain
-  data-background-opacity: "0.1"
+format: 
+  revealjs:
+    theme: [default, style.scss]
+    title-slide-attributes:
+      data-background-image: /images/web-hex.png
+      data-background-size: contain
+      data-background-opacity: "0.1"
 
 ---
 
-## The Carpentries Paradigm
+## The Carpentries Paradigm {.smaller}
+
+
 
 -   **Live coding**: We teach by doing, typing code in real-time.
 -   **Workshops**: Intensive, hands-on learning over 16 - 24 hours.
 -   **Lessons**: Focused modules, typically 2 - 14 hours.
 -   **Episodes**: Bite-sized chunks, under 2 hours each.
 
-![A map of the UCSB campus showing different data layers.](https://raw.githubusercontent.com/UCSBCarpentry/ucsb-ratlas/main/fig/01-intro-map-1.png)
+![.](images/carpentries.png)
 
 ---
 
-## With a Dash Of...
+## With a Dash Of... {.smaller}
 
 -   **Openness**: We lean heavily on open-source tools like R and Python.
 -   **A Work in Progress**: We're actively improving how we teach reproducibility and project management.
+-   **Eating our own dogfood**: We use Carpentries materials to teach Carpentries skills. (and I've never used quarto slides before)
 
-
+![Charlotte, adoptable # A544520](images/charlotte.jpg)
 
 ---
 
-## 2019: The Beginning
+## 2019: The Beginning {.smaller}
 
--   Fresh from Carpentries Instructor training.
--   Zero experience with GitHub or GitHub Pages.
--   Extremely rusty (> 10 years) geostatistical R skills.
+-   Fresh from Carpentries Instructor training
+-   Zero experience with GitHub or GitHub Pages
+-   Extremely rusty (> 10 years) geostatistical R skills
 
 It was a steep learning curve!
 
+![Nonlinear graticules, missing data](images/map6.0.png)
+
 ---
 
-## 2025: Where We Are Now
+## 2025: Where We Are Now {.smaller}
 
 -   Running The Carpentries Workbench independently from a cloud-hosted Linux machine with RStudio.
--   Maintainer and ad hoc chair of a committee editing a lesson from 2019.
+-   Maintainer and *ad hoc* chair of a committee editing a lesson from 2019.
 -   Frequently arguing with Gemini and Copilot about their... *creative*... code suggestions.
 
 ![Map 1. 7 layers](images/map_01.png)
 
+
+
 ---
 
-## Overall Strategy: Reproducible, Runnable, Open, and Local
+## How did we get here? {.smaller}
+
+-  **Dedicated time and personnel** Scheduled, weekly sessions 
+-  **Strong local data sources** Campus recently renovated a golf course into an open space.
+-  **Existing materials** We built on an existing Carpentries lesson.
+
+![??](images/map7_row_1.png)
+
+---
+
+## Overall Strategy: Reproducible, Runnable, Open, and Local {.smaller}
 
 Our goal is to create learning materials that are:
 -   **Properly Reproducible**: Anyone can regenerate the results.
@@ -58,20 +76,22 @@ Our goal is to create learning materials that are:
 -   **Open**: All materials are publicly accessible and licensed for reuse.
 -   **Local**: The context and data are relevant to our community.
 
+![Eucalyptus, aka: tiki torches](images/map_02.png)
+
 ---
 
-## Technical Implementation
+## Technical Implementation {.smaller}
 
 -   `run_all_episodes.R`: A script to run the entire lesson from start to finish.
 -   `run_all_maps.R`: A script to generate all map figures.
--   **Clean Environments**: We unload libraries and clear objects between each episode to ensure there are no hidden dependencies.
+-   **Clean Environments**: We unload libraries and clear objects between each episode to ensure there are no hidden dependencies. `rm(list=ls())`
 -   **Best-Practice Project Organization**: A clear and consistent folder structure.
 
 Check out the repository: [UCSBCarpentry/ucsb-ratlas](https://github.com/UCSBCarpentry/ucsb-ratlas)
 
 ---
 
-## The Power of "Local"
+## The Power of "Local" {.smaller}
 
 -   **Data Sources**: We use readily available campus and public data.
     -   UCSB Library collections
@@ -84,7 +104,7 @@ Check out the repository: [UCSBCarpentry/ucsb-ratlas](https://github.com/UCSBCar
 
 ---
 
-## Why Local Matters
+## Why Local Matters {.smaller}
 
 -   **Outreach & Awareness**: It highlights amazing local resources.
 -   **Cognitive Scaffolding**: A key factor in geodata education is landscape scale. Working with a familiar landscape like our own campus makes abstract concepts much more concrete. It's easier to understand a 30m pixel NDVI when it represents a place you walk through every day.
