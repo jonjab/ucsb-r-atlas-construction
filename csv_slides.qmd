@@ -3,6 +3,10 @@ title: "Local Geospatial Data Carpentry: an R Atlas of Campus"
 author: "UCSB Carpentry, Jon Jablonski"
 format: revealjs
 output-dir: docs
+title-slide-attributes:
+  data-background-image: /images/web-hex.png
+  data-background-size: contain
+  data-background-opacity: "0.1"
 
 ---
 
