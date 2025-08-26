@@ -34,14 +34,15 @@ format:
 
 ---
 
-## 2019: The Beginning {.smaller}
+## 2019: the Beginning {.smaller}
 
-### I was:
+At the start of the journey, I was:
+
 -   Fresh from Carpentries Instructor training
 -   Zero experience with GitHub or GitHub Pages
 -   Extremely rusty (> 10 years) geostatistical R skills
 
-It was a steep learning curve!
+**It was a steep learning curve!**
 
 ![Nonlinear graticules, missing data](images/map6.0.png)
 
