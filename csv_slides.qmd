@@ -2,6 +2,7 @@
 title: "From Novice to Navigator: A Carpentries Journey"
 author: "UCSB Carpentry"
 format: revealjs
+output-dir: docs
 # title-slide-attributes:
 #  data-background-image: "/images/web-hex.png"
 #    data-background-size: contain
