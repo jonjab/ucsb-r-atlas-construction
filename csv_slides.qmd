@@ -1,12 +1,9 @@
 ---
-title: "From Novice to Navigator: A Carpentries Journey"
-author: "UCSB Carpentry"
+title: "Local Geospatial Data Carpentry: an R Atlas of Campus"
+author: "UCSB Carpentry", "Jon Jablonski"
 format: revealjs
 output-dir: docs
-# title-slide-attributes:
-#  data-background-image: "/images/web-hex.png"
-#    data-background-size: contain
-#  data-background-opacity: "0.5"
+
 ---
 
 ## The Carpentries Paradigm
@@ -16,6 +13,8 @@ output-dir: docs
 -   **Lessons**: Focused modules, typically 2 - 14 hours.
 -   **Episodes**: Bite-sized chunks, under 2 hours each.
 
+![A map of the UCSB campus showing different data layers.](https://raw.githubusercontent.com/UCSBCarpentry/ucsb-ratlas/main/fig/01-intro-map-1.png)
+
 ---
 
 ## With a Dash Of...
@@ -23,7 +22,7 @@ output-dir: docs
 -   **Openness**: We lean heavily on open-source tools like R and Python.
 -   **A Work in Progress**: We're actively improving how we teach reproducibility and project management.
 
-![A map of the UCSB campus showing different data layers.](https://raw.githubusercontent.com/UCSBCarpentry/ucsb-ratlas/main/fig/01-intro-map-1.png)
+
 
 ---
 
@@ -77,7 +76,7 @@ Check out the repository: [UCSBCarpentry/ucsb-ratlas](https://github.com/UCSBCar
     -   Cheadle Center for Biodiversity and Ecological Restoration (CCBER)
     -   Common US government sources (e.g., census data)
 
-![Red trees are highly flammable eucalytpus.](images/map_0w.png?raw=true)
+![Red trees are highly flammable eucalytpus.](images/map_02.png?raw=true)
 
 ---
 
