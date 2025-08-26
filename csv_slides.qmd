@@ -1,6 +1,6 @@
 ---
 title: "Local Geospatial Data Carpentry: an R Atlas of Campus"
-author: "UCSB Carpentry", "Jon Jablonski"
+author: "UCSB Carpentry, Jon Jablonski"
 format: revealjs
 output-dir: docs
 
