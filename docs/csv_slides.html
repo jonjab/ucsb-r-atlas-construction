@@ -29,7 +29,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-149430735ab8ae1e10ef3ddc1d2a861e.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-13cf9ee63121664624959c40f2a4e9df.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -159,6 +159,7 @@ UCSB Carpentry, Jon Jablonski
 <img data-src="images/charlotte.jpg" class="r-stretch quarto-figure-center"><p class="caption">Charlotte, adoptable # A544520</p></section>
 <section id="the-beginning" class="slide level2 smaller">
 <h2>2019: The Beginning</h2>
+<h3 id="i-was">I was:</h3>
 <ul>
 <li>Fresh from Carpentries Instructor training</li>
 <li>Zero experience with GitHub or GitHub Pages</li>
@@ -179,26 +180,33 @@ UCSB Carpentry, Jon Jablonski
 <section id="how-did-we-get-here" class="slide level2 smaller">
 <h2>How did we get here?</h2>
 <ul>
-<li><strong>Dedicated time and personnel</strong> Scheduled, weekly sessions</li>
-<li><strong>Strong local data sources</strong> Campus recently renovated a golf course into an open space.</li>
-<li><strong>Existing materials</strong> We built on an existing Carpentries lesson.</li>
+<li><strong>Dedicated time and personnel:</strong> Scheduled, weekly sessions</li>
+<li><strong>Strong local data sources:</strong> Campus recently renovated a golf course into an open space.</li>
+<li><strong>Existing materials:</strong> We built on an <a href="https://datacarpentry.github.io/r-raster-vector-geospatial/">existing Carpentries Lesson</a>.</li>
 </ul>
 
 <img data-src="images/map7_row_1.png" class="r-stretch quarto-figure-center"><p class="caption">??</p></section>
 <section id="overall-strategy-reproducible-runnable-open-and-local" class="slide level2 smaller">
 <h2>Overall Strategy: Reproducible, Runnable, Open, and Local</h2>
-<p>Our goal is to create learning materials that are: - <strong>Properly Reproducible</strong>: Anyone can regenerate the results. - <strong>Runnable</strong>: The code works out-of-the-box. - <strong>Open</strong>: All materials are publicly accessible and licensed for reuse. - <strong>Local</strong>: The context and data are relevant to our community.</p>
+<p>Our goal is to create learning materials that are:</p>
+<ul>
+<li><strong>Properly Reproducible</strong>: Anyone can regenerate the results.</li>
+<li><strong>Runnable</strong>: The code works out-of-the-box, from start to finish.</li>
+<li><strong>Open</strong>: All materials are publicly accessible and licensed for reuse.</li>
+<li><strong>Local</strong>: The context and data are relevant to our community.</li>
+</ul>
 
 <img data-src="images/map_02.png" class="r-stretch quarto-figure-center"><p class="caption">Eucalyptus, aka: tiki torches</p></section>
 <section id="technical-implementation" class="slide level2 smaller">
 <h2>Technical Implementation</h2>
-<ul>
-<li><code>run_all_episodes.R</code>: A script to run the entire lesson from start to finish.</li>
-<li><code>run_all_maps.R</code>: A script to generate all map figures.</li>
+
+<img data-src="images/map_08.png" class="r-stretch quarto-figure-center"><p class="caption">4 Planet Images</p><ul>
+<li><code>run_all_episodes.R</code>: runs the entire lesson from start to finish.</li>
+<li><code>run_all_maps.R</code>: generates all map figures.</li>
 <li><strong>Clean Environments</strong>: We unload libraries and clear objects between each episode to ensure there are no hidden dependencies. <code>rm(list=ls())</code></li>
 <li><strong>Best-Practice Project Organization</strong>: A clear and consistent folder structure.</li>
 </ul>
-<p>Check out the repository: <a href="https://github.com/UCSBCarpentry/ucsb-ratlas">UCSBCarpentry/ucsb-ratlas</a></p>
+<p>Check out the repo: <a href="https://github.com/UCSBCarpentry/ucsb-ratlas">UCSBCarpentry/ucsb-ratlas</a></p>
 </section>
 <section id="the-power-of-local" class="slide level2 smaller">
 <h2>The Power of “Local”</h2>
@@ -213,15 +221,16 @@ UCSB Carpentry, Jon Jablonski
 </ul></li>
 </ul>
 
-<img data-src="images/map_02.png?raw=true" class="r-stretch quarto-figure-center"><p class="caption">Red trees are highly flammable eucalytpus.</p></section>
+<img data-src="images/map_12.png" class="r-stretch quarto-figure-center"><p class="caption">NCOS NDVI 2023-2024</p></section>
 <section id="why-local-matters" class="slide level2 smaller">
 <h2>Why Local Matters</h2>
 <ul>
 <li><strong>Outreach &amp; Awareness</strong>: It highlights amazing local resources.</li>
 <li><strong>Cognitive Scaffolding</strong>: A key factor in geodata education is landscape scale. Working with a familiar landscape like our own campus makes abstract concepts much more concrete. It’s easier to understand a 30m pixel NDVI when it represents a place you walk through every day.</li>
 </ul>
-</section>
-<section id="whats-next" class="slide level2">
+
+<img data-src="images/map_02.png" class="r-stretch quarto-figure-center"><p class="caption">Red trees are highly flammable eucalytpus.</p></section>
+<section id="whats-next" class="slide level2 smaller">
 <h2>What’s Next?</h2>
 <ul>
 <li>Can two versions of a Workbench repository live side-by-side? We are currently working in multiple forks to figure this out.</li>
@@ -231,7 +240,8 @@ UCSB Carpentry, Jon Jablonski
 <p>The journey continues!</p>
 
 
-</section>
+
+<img data-src="images/smoke_and_fog.png" class="r-stretch quarto-figure-center"><p class="caption">Gifford Fire. August 2025</p></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">

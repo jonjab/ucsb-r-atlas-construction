@@ -87,6 +87,7 @@ $theme-lightgrey: #90A1B8;
 $body-bg: $theme-light;
 $body-color: $theme-grey;
 $link-color: $theme-red;
+$link-decoration: underline;
 
 $code-block-font-size: 1em;
 
@@ -2590,7 +2591,8 @@ $presentation-author-block-padding-right: if(
 .reveal section img {
         max-width: 90%; // Image takes up to 90% of slide width
         max-height: 80%; // Image takes up to 80% of slide height
-        margin: 0 auto; // Center the image
+        float: right; // Right align the images?
+        object-fit: cover;
 }
 
 
