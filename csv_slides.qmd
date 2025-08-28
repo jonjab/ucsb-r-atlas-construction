@@ -8,12 +8,9 @@ format:
       data-background-image: /images/web-hex.png
       data-background-size: contain
       data-background-opacity: "0.1"
-
 ---
 
 ## The Carpentries Paradigm {.smaller}
-
-
 
 -   **Live coding**: We teach by doing, typing code in real-time.
 -   **Workshops**: Intensive, hands-on learning over 16 - 24 hours.
@@ -22,7 +19,7 @@ format:
 
 ![.](images/carpentries.png)
 
----
+------------------------------------------------------------------------
 
 ## With a Dash Of... {.smaller}
 
@@ -30,23 +27,24 @@ format:
 -   **A Work in Progress**: We're actively improving how we teach reproducibility and project management.
 -   **Eating our own dogfood**: We use Carpentries materials to teach Carpentries skills. (and I've never used quarto slides before)
 
-![Charlotte, adoptable # A544520](images/charlotte.jpg)
+![Charlotte, adoptable \# A544520](images/charlotte.jpg)
 
----
+------------------------------------------------------------------------
 
 ## 2019: the Beginning {.smaller}
 
 At the start of the journey, I was:
 
+![Groovy mistakes](images/IMG_5925.JPG){fig-align="right" width="200px"}
+
 -   Fresh from Carpentries Instructor training
 -   Zero experience with GitHub or GitHub Pages
--   Extremely rusty (> 10 years) geostatistical R skills
+-   Extremely rusty (\> 10 years) geostatistical R skills
 
 **It was a steep learning curve!**
 
-![Nonlinear graticules, missing data](images/map6.0.png)
 
----
+------------------------------------------------------------------------
 
 ## 2025: Where We Are Now {.smaller}
 
@@ -56,19 +54,17 @@ At the start of the journey, I was:
 
 ![Map 1. 7 layers](images/map_01.png)
 
-
-
----
+------------------------------------------------------------------------
 
 ## How did we get here? {.smaller}
 
--  **Dedicated time and personnel:** Scheduled, weekly sessions 
--  **Strong local data sources:** Campus recently renovated a golf course into an open space.
--  **Existing materials:** We built on an [existing Carpentries Lesson](https://datacarpentry.github.io/r-raster-vector-geospatial/).
+-   **Dedicated time and personnel:** Scheduled, weekly sessions
+-   **Strong local data sources:** Campus recently renovated a golf course into an open space.
+-   **Existing materials:** We built on an [existing Carpentries Lesson](https://datacarpentry.github.io/r-raster-vector-geospatial/).
 
-![??](images/map7_row_1.png)
+![Zooming in](images/map7_row_1.png)
 
----
+------------------------------------------------------------------------
 
 ## Overall Strategy: Reproducible, Runnable, Open, and Local {.smaller}
 
@@ -81,7 +77,7 @@ Our goal is to create learning materials that are:
 
 ![Eucalyptus, aka: tiki torches](images/map_02.png)
 
----
+------------------------------------------------------------------------
 
 ## Technical Implementation {.smaller}
 
@@ -94,9 +90,11 @@ Our goal is to create learning materials that are:
 
 Check out the repo: [UCSBCarpentry/ucsb-ratlas](https://github.com/UCSBCarpentry/ucsb-ratlas)
 
----
+![Nonlinear graticules, missing data](images/map6.0.png){fig-align="left"}
 
-## The Power of "Local"{.smaller}
+------------------------------------------------------------------------
+
+## The Power of "Local" {.smaller}
 
 -   **Data Sources**: We use readily available campus and public data.
     -   UCSB Library collections
@@ -107,18 +105,18 @@ Check out the repo: [UCSBCarpentry/ucsb-ratlas](https://github.com/UCSBCarpentry
 
 ![NCOS NDVI 2023-2024](images/map_12.png)
 
----
+------------------------------------------------------------------------
 
-## Why Local Matters{.smaller}
+## Why Local Matters {.smaller}
 
 -   **Outreach & Awareness**: It highlights amazing local resources.
 -   **Cognitive Scaffolding**: A key factor in geodata education is landscape scale. Working with a familiar landscape like our own campus makes abstract concepts much more concrete. It's easier to understand a 30m pixel NDVI when it represents a place you walk through every day.
 
 ![Red trees are highly flammable eucalytpus.](images/map_02.png)
 
----
+------------------------------------------------------------------------
 
-## What’s Next?{.smaller}
+## What’s Next? {.smaller}
 
 -   Can two versions of a Workbench repository live side-by-side? We are currently working in multiple forks to figure this out.
 -   Repeat this entire lesson in QGIS.

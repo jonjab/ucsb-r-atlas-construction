@@ -18,7 +18,7 @@
     "href": "csv_slides.html#the-beginning",
     "title": "Local Geospatial Data Carpentry: an R Atlas of Campus",
     "section": "2019: the Beginning",
-    "text": "2019: the Beginning\nAt the start of the journey, I was:\n\nFresh from Carpentries Instructor training\nZero experience with GitHub or GitHub Pages\nExtremely rusty (&gt; 10 years) geostatistical R skills\n\nIt was a steep learning curve!\n\nNonlinear graticules, missing data"
+    "text": "2019: the Beginning\nAt the start of the journey, I was:\n\nGroovy mistakes\nFresh from Carpentries Instructor training\nZero experience with GitHub or GitHub Pages\nExtremely rusty (&gt; 10 years) geostatistical R skills\n\nIt was a steep learning curve!"
   },
   {
     "objectID": "csv_slides.html#where-we-are-now",
@@ -32,7 +32,7 @@
     "href": "csv_slides.html#how-did-we-get-here",
     "title": "Local Geospatial Data Carpentry: an R Atlas of Campus",
     "section": "How did we get here?",
-    "text": "How did we get here?\n\nDedicated time and personnel: Scheduled, weekly sessions\nStrong local data sources: Campus recently renovated a golf course into an open space.\nExisting materials: We built on an existing Carpentries Lesson.\n\n\n??"
+    "text": "How did we get here?\n\nDedicated time and personnel: Scheduled, weekly sessions\nStrong local data sources: Campus recently renovated a golf course into an open space.\nExisting materials: We built on an existing Carpentries Lesson.\n\n\nZooming in"
   },
   {
     "objectID": "csv_slides.html#overall-strategy-reproducible-runnable-open-and-local",
@@ -46,7 +46,7 @@
     "href": "csv_slides.html#technical-implementation",
     "title": "Local Geospatial Data Carpentry: an R Atlas of Campus",
     "section": "Technical Implementation",
-    "text": "Technical Implementation\n\n4 Planet Images\nrun_all_episodes.R: runs the entire lesson from start to finish.\nrun_all_maps.R: generates all map figures.\nClean Environments: We unload libraries and clear objects between each episode to ensure there are no hidden dependencies. rm(list=ls())\nBest-Practice Project Organization: A clear and consistent folder structure.\n\nCheck out the repo: UCSBCarpentry/ucsb-ratlas"
+    "text": "Technical Implementation\n\n\n\n4 Planet Images\n\n\n\nrun_all_episodes.R: runs the entire lesson from start to finish.\nrun_all_maps.R: generates all map figures.\nClean Environments: We unload libraries and clear objects between each episode to ensure there are no hidden dependencies. rm(list=ls())\nBest-Practice Project Organization: A clear and consistent folder structure.\n\nCheck out the repo: UCSBCarpentry/ucsb-ratlas\n\n\n\nNonlinear graticules, missing data"
   },
   {
     "objectID": "csv_slides.html#the-power-of-local",
