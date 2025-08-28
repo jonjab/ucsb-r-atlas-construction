@@ -160,14 +160,14 @@ UCSB Carpentry, Jon Jablonski
 <section id="the-beginning" class="slide level2 smaller">
 <h2>2019: the Beginning</h2>
 <p>At the start of the journey, I was:</p>
-<ul>
+
+<img data-src="images/IMG_5925.JPG" width="200" class="r-stretch quarto-figure-right"><p class="caption">Groovy mistakes</p><ul>
 <li>Fresh from Carpentries Instructor training</li>
 <li>Zero experience with GitHub or GitHub Pages</li>
 <li>Extremely rusty (&gt; 10 years) geostatistical R skills</li>
 </ul>
 <p><strong>It was a steep learning curve!</strong></p>
-
-<img data-src="images/map6.0.png" class="r-stretch quarto-figure-center"><p class="caption">Nonlinear graticules, missing data</p></section>
+</section>
 <section id="where-we-are-now" class="slide level2 smaller">
 <h2>2025: Where We Are Now</h2>
 <ul>
@@ -185,7 +185,7 @@ UCSB Carpentry, Jon Jablonski
 <li><strong>Existing materials:</strong> We built on an <a href="https://datacarpentry.github.io/r-raster-vector-geospatial/">existing Carpentries Lesson</a>.</li>
 </ul>
 
-<img data-src="images/map7_row_1.png" class="r-stretch quarto-figure-center"><p class="caption">??</p></section>
+<img data-src="images/map7_row_1.png" class="r-stretch quarto-figure-center"><p class="caption">Zooming in</p></section>
 <section id="overall-strategy-reproducible-runnable-open-and-local" class="slide level2 smaller">
 <h2>Overall Strategy: Reproducible, Runnable, Open, and Local</h2>
 <p>Our goal is to create learning materials that are:</p>
@@ -199,14 +199,25 @@ UCSB Carpentry, Jon Jablonski
 <img data-src="images/map_02.png" class="r-stretch quarto-figure-center"><p class="caption">Eucalyptus, aka: tiki torches</p></section>
 <section id="technical-implementation" class="slide level2 smaller">
 <h2>Technical Implementation</h2>
-
-<img data-src="images/map_08.png" class="r-stretch quarto-figure-center"><p class="caption">4 Planet Images</p><ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/map_08.png"></p>
+<figcaption>4 Planet Images</figcaption>
+</figure>
+</div>
+<ul>
 <li><code>run_all_episodes.R</code>: runs the entire lesson from start to finish.</li>
 <li><code>run_all_maps.R</code>: generates all map figures.</li>
 <li><strong>Clean Environments</strong>: We unload libraries and clear objects between each episode to ensure there are no hidden dependencies. <code>rm(list=ls())</code></li>
 <li><strong>Best-Practice Project Organization</strong>: A clear and consistent folder structure.</li>
 </ul>
 <p>Check out the repo: <a href="https://github.com/UCSBCarpentry/ucsb-ratlas">UCSBCarpentry/ucsb-ratlas</a></p>
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><img data-src="images/map6.0.png"></p>
+<figcaption>Nonlinear graticules, missing data</figcaption>
+</figure>
+</div>
 </section>
 <section id="the-power-of-local" class="slide level2 smaller">
 <h2>The Power of “Local”</h2>
