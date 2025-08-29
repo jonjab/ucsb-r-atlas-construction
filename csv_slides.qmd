@@ -35,7 +35,7 @@ format:
 
 At the start of the journey, I was:
 
-![Groovy mistakes](images/IMG_5925.JPG){fig-align="right" width="200px"}
+![making groovy mistakes](images/IMG_5925.JPG){fig-align="right" width="200px"}
 
 -   Fresh from Carpentries Instructor training
 -   Zero experience with GitHub or GitHub Pages
