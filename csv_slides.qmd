@@ -58,11 +58,11 @@ At the start of the journey, I was:
 
 ## How did we get here? {.smaller}
 
--   **Dedicated time and personnel:** Scheduled, weekly sessions
--   **Strong local data sources:** Campus recently renovated a golf course into an open space.
--   **Existing materials:** We built on an [existing Carpentries Lesson](https://datacarpentry.github.io/r-raster-vector-geospatial/).
+-   **Dedicated time and personnel:** scheduled, weekly sessions
+-   **Strong local data sources:** official campus data and a recently removed golf course
+-   **Nothing new:** we completely mimicked the [existing Carpentries Lesson](https://datacarpentry.github.io/r-raster-vector-geospatial/).
 
-![Zooming in](images/map7_row_1.png)
+![Zooming in: our most difficult tryptic](images/map7_row_1.png)
 
 ------------------------------------------------------------------------
 
@@ -90,7 +90,6 @@ Our goal is to create learning materials that are:
 
 Check out the repo: [UCSBCarpentry/ucsb-ratlas](https://github.com/UCSBCarpentry/ucsb-ratlas)
 
-![Nonlinear graticules, missing data](images/map6.0.png){fig-align="left"}
 
 ------------------------------------------------------------------------
 
