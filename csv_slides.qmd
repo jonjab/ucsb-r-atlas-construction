@@ -128,4 +128,4 @@ Check out the repo: [UCSBCarpentry/ucsb-ratlas](https://github.com/UCSBCarpentry
 
 The journey continues!
 
-![Bike paths, buildings, topobathymetry](images/map_06.png)
+![Campus paths and roads](images/thumb.png)
