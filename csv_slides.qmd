@@ -37,16 +37,18 @@ format:
 
 At the start of this journey, we were:
 
-![making groovy mistakes](images/IMG_5925.JPG){fig-align="right" width="200px"}
+![making groovy mistakes](images/IMG_5925.JPG)
 
 -   Just minted our first Carpentries Instructors
 -   Few on the team had experience with GitHub or GitHub Pages
 -   I kept eyeing the geospatial lesson
--   post-global pannini: we needed a team project
+-   post-global panini: we needed a team project
 
 ------------------------------------------------------------------------
 
 ## 2025: Where We Are Now {.smaller .scrollable background-opacity="0.1" background-image="https://carpentries-incubator.github.io/r-geospatial-urban/fig/15-import-and-visualise-osm-data-rendered-Replicability-2.png"}
+
+![Dutch Bicycle Carpentry](https://carpentries-incubator.github.io/r-geospatial-urban/fig/15-import-and-visualise-osm-data-rendered-Replicability-2.png)
 
 -   Maintainers of several Lessons. Maintainer Community Lead
 -   The team are all proficient with GitHub, GitHub Pages, and RMarkdown
@@ -54,7 +56,6 @@ At the start of this journey, we were:
 -   January: test-teaching [Data Carpentry for Urbanism](https://carpentries-incubator.github.io/r-geospatial-urban/) from the Dutch
 -   I use rStudio just about as often as ArcGIS Pro
 
-![.](images/carpentries.png)
 
 ------------------------------------------------------------------------
 
@@ -64,35 +65,35 @@ At the start of this journey, we were:
 -   **Strong local data sources:** official campus data and a recently removed golf course
 -   **Nothing new:** we completely mimicked the [existing Carpentries Lesson](https://datacarpentry.github.io/r-raster-vector-geospatial/).
 
-![Map 1. 7 layers](images/map_01.png)
+
+![Carpentry attendance summary](images/carpentries.png)
 
 ------------------------------------------------------------------------
 
-## Overall Strategy: Reproducible, Runnable, Open, and Local {.smaller}
+## Overall Strategy: Reproducible, Runnable, Open, Local {.smaller}
+![Water, trees, bike paths](images/map2_TreeSpecies.png)
 
-Our goal is to create learning materials that are:{.smaller}
+Our goal is to create learning materials that are:
 
 -   **Properly Reproducible**: Anyone can regenerate the results.
 -   **Runnable**: The code works out-of-the-box, from start to finish.
--   **Open**: All materials are publicly accessible and licensed for reuse.
+-   **Open**: All materials are publicly accessible and/or licensed for reuse.
 -   **Local**: The context and data are relevant to our community.
-
-![Water, trees, bike paths](images/map2_TreeSpecies.png)
 
 ------------------------------------------------------------------------
 
-## Technical Implementation {.smaller}
+## Technical Implementation {.smaller .scrollable}
 
-![4 Planet Images](images/map_08.png)
+::: aside
+Check out the repo: [UCSBCarpentry/ucsb-ratlas](https://github.com/UCSBCarpentry/ucsb-ratlas)
+:::
 
 -   `run_all_episodes.R`: runs the entire lesson from start to finish.
 -   `run_all_maps.R`: generates all map figures.
 -   **Clean Environments**: We unload libraries and clear objects between each episode to ensure there are no hidden dependencies. `rm(list=ls())`
 -   **Best-Practice Project Organization**: A clear and consistent folder structure.
 
-::: aside
-Check out the repo: [UCSBCarpentry/ucsb-ratlas](https://github.com/UCSBCarpentry/ucsb-ratlas)
-:::
+![4 Planet Images](images/map_08.png)
 
 ------------------------------------------------------------------------
 
@@ -101,9 +102,8 @@ Check out the repo: [UCSBCarpentry/ucsb-ratlas](https://github.com/UCSBCarpentry
 -   **Data Sources**: We use readily available campus and public data.
     -   UCSB Library collections
     -   Campus facilities & ArcGIS Online
-    -   North Campus Open Space (NCOS)
     -   Cheadle Center for Biodiversity and Ecological Restoration (CCBER)
-    -   Common US government sources (e.g., census data)
+    -   MS Global Building Footprints
 
 ![Zooming in: our most difficult tryptic](images/map7_row_1.png)
 
@@ -111,19 +111,21 @@ Check out the repo: [UCSBCarpentry/ucsb-ratlas](https://github.com/UCSBCarpentry
 
 ## Why Local Matters {.smaller}
 
+![NCOS NDVI 2023-2024](images/map_12.png)
+
 -   **Outreach & Awareness**: It highlights amazing local resources.
 -   **Cognitive Scaffolding**: A key factor in geodata education is landscape scale. Working with a familiar landscape like our own campus makes abstract concepts much more concrete. It's easier to understand a 30m pixel NDVI when it represents a place you walk through every day.
 
-![NCOS NDVI 2023-2024](images/map_12.png)
 
 ------------------------------------------------------------------------
 
 ## What’s Next? {.smaller}
 
--   Can two versions of a Workbench repository live side-by-side? We are currently working in multiple forks to figure this out.
+-   Add a Quarto page and pdf export
+-   Edit the canonical lesson outline
 -   Repeat this entire lesson in QGIS.
 -   Repeat this entire lesson in ArcGIS Online.
 
 The journey continues!
 
-![Gifford Fire. August 2025](images/smoke_and_fog.png) \# Continue
+![Bike paths, buildings, topobathymetry](images/map_06.png)

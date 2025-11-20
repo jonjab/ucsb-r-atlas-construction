@@ -161,24 +161,24 @@ UCSB Carpentry, Jon Jablonski
 <h2>2019: the Beginning</h2>
 <p>At the start of this journey, we were:</p>
 
-<img data-src="images/IMG_5925.JPG" width="200" class="r-stretch quarto-figure-right"><p class="caption">making groovy mistakes</p><ul>
+<img data-src="images/IMG_5925.JPG" class="r-stretch quarto-figure-center"><p class="caption">making groovy mistakes</p><ul>
 <li>Just minted our first Carpentries Instructors</li>
 <li>Few on the team had experience with GitHub or GitHub Pages</li>
 <li>I kept eyeing the geospatial lesson</li>
-<li>post-global pannini: we needed a team project</li>
+<li>post-global panini: we needed a team project</li>
 </ul>
 </section>
 <section id="where-we-are-now" class="slide level2 smaller scrollable" data-background-opacity="0.1" data-background-image="https://carpentries-incubator.github.io/r-geospatial-urban/fig/15-import-and-visualise-osm-data-rendered-Replicability-2.png">
 <h2>2025: Where We Are Now</h2>
-<ul>
+
+<img data-src="https://carpentries-incubator.github.io/r-geospatial-urban/fig/15-import-and-visualise-osm-data-rendered-Replicability-2.png" class="r-stretch quarto-figure-center"><p class="caption">Dutch Bicycle Carpentry</p><ul>
 <li>Maintainers of several Lessons. Maintainer Community Lead</li>
 <li>The team are all proficient with GitHub, GitHub Pages, and RMarkdown</li>
 <li>Frequently arguing with Gemini and Copilot about their… <em>creative</em>… code suggestions</li>
 <li>January: test-teaching <a href="https://carpentries-incubator.github.io/r-geospatial-urban/">Data Carpentry for Urbanism</a> from the Dutch</li>
 <li>I use rStudio just about as often as ArcGIS Pro</li>
 </ul>
-
-<img data-src="images/carpentries.png" class="r-stretch quarto-figure-center"><p class="caption">.</p></section>
+</section>
 <section id="how-did-we-get-here" class="slide level2 smaller">
 <h2>How did we get here?</h2>
 <ul>
@@ -187,33 +187,33 @@ UCSB Carpentry, Jon Jablonski
 <li><strong>Nothing new:</strong> we completely mimicked the <a href="https://datacarpentry.github.io/r-raster-vector-geospatial/">existing Carpentries Lesson</a>.</li>
 </ul>
 
-<img data-src="images/map_01.png" class="r-stretch quarto-figure-center"><p class="caption">Map 1. 7 layers</p></section>
-<section id="overall-strategy-reproducible-runnable-open-and-local" class="slide level2 smaller">
-<h2>Overall Strategy: Reproducible, Runnable, Open, and Local</h2>
-<p>Our goal is to create learning materials that are:{.smaller}</p>
+<img data-src="images/carpentries.png" class="r-stretch quarto-figure-center"><p class="caption">Carpentry attendance summary</p></section>
+<section id="overall-strategy-reproducible-runnable-open-local" class="slide level2 smaller">
+<h2>Overall Strategy: Reproducible, Runnable, Open, Local</h2>
+
+<img data-src="images/map2_TreeSpecies.png" class="r-stretch quarto-figure-center"><p class="caption">Water, trees, bike paths</p><p>Our goal is to create learning materials that are:</p>
 <ul>
 <li><strong>Properly Reproducible</strong>: Anyone can regenerate the results.</li>
 <li><strong>Runnable</strong>: The code works out-of-the-box, from start to finish.</li>
-<li><strong>Open</strong>: All materials are publicly accessible and licensed for reuse.</li>
+<li><strong>Open</strong>: All materials are publicly accessible and/or licensed for reuse.</li>
 <li><strong>Local</strong>: The context and data are relevant to our community.</li>
 </ul>
-
-<img data-src="images/map2_TreeSpecies.png" class="r-stretch quarto-figure-center"><p class="caption">Water, trees, bike paths</p></section>
-<section id="technical-implementation" class="slide level2 smaller">
+</section>
+<section id="technical-implementation" class="slide level2 smaller scrollable">
 <h2>Technical Implementation</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/map_08.png"></p>
-<figcaption>4 Planet Images</figcaption>
-</figure>
-</div>
+
 <ul>
 <li><code>run_all_episodes.R</code>: runs the entire lesson from start to finish.</li>
 <li><code>run_all_maps.R</code>: generates all map figures.</li>
 <li><strong>Clean Environments</strong>: We unload libraries and clear objects between each episode to ensure there are no hidden dependencies. <code>rm(list=ls())</code></li>
 <li><strong>Best-Practice Project Organization</strong>: A clear and consistent folder structure.</li>
 </ul>
-
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/map_08.png"></p>
+<figcaption>4 Planet Images</figcaption>
+</figure>
+</div>
 <aside><div>
 <p>Check out the repo: <a href="https://github.com/UCSBCarpentry/ucsb-ratlas">UCSBCarpentry/ucsb-ratlas</a></p>
 </div></aside></section>
@@ -224,33 +224,33 @@ UCSB Carpentry, Jon Jablonski
 <ul>
 <li>UCSB Library collections</li>
 <li>Campus facilities &amp; ArcGIS Online</li>
-<li>North Campus Open Space (NCOS)</li>
 <li>Cheadle Center for Biodiversity and Ecological Restoration (CCBER)</li>
-<li>Common US government sources (e.g., census data)</li>
+<li>MS Global Building Footprints</li>
 </ul></li>
 </ul>
 
 <img data-src="images/map7_row_1.png" class="r-stretch quarto-figure-center"><p class="caption">Zooming in: our most difficult tryptic</p></section>
 <section id="why-local-matters" class="slide level2 smaller">
 <h2>Why Local Matters</h2>
-<ul>
+
+<img data-src="images/map_12.png" class="r-stretch quarto-figure-center"><p class="caption">NCOS NDVI 2023-2024</p><ul>
 <li><strong>Outreach &amp; Awareness</strong>: It highlights amazing local resources.</li>
 <li><strong>Cognitive Scaffolding</strong>: A key factor in geodata education is landscape scale. Working with a familiar landscape like our own campus makes abstract concepts much more concrete. It’s easier to understand a 30m pixel NDVI when it represents a place you walk through every day.</li>
 </ul>
-
-<img data-src="images/map_12.png" class="r-stretch quarto-figure-center"><p class="caption">NCOS NDVI 2023-2024</p></section>
+</section>
 <section id="whats-next" class="slide level2 smaller">
 <h2>What’s Next?</h2>
 <ul>
-<li>Can two versions of a Workbench repository live side-by-side? We are currently working in multiple forks to figure this out.</li>
+<li>Add a Quarto page and pdf export</li>
+<li>Edit the canonical lesson outline</li>
 <li>Repeat this entire lesson in QGIS.</li>
 <li>Repeat this entire lesson in ArcGIS Online.</li>
 </ul>
 <p>The journey continues!</p>
-<p><img data-src="images/smoke_and_fog.png" alt="Gifford Fire. August 2025"> # Continue</p>
 
 
-</section>
+
+<img data-src="images/map_06.png" class="r-stretch quarto-figure-center"><p class="caption">Bike paths, buildings, topobathymetry</p></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
