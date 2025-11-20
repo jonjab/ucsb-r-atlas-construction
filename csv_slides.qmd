@@ -19,8 +19,7 @@ format:
 -   **Lessons**: Focused modules, typically 2 - 14 hours.
 -   **Episodes**: Bite-sized chunks, under 2 hours each.
 
-
-![.](images/carpentries.png)
+![image: @dreamtime](images/sticky.png)
 
 ------------------------------------------------------------------------
 
@@ -47,16 +46,15 @@ At the start of this journey, we were:
 
 ------------------------------------------------------------------------
 
-## 2025: Where We Are Now{.smaller 
-   .scrollable 
-   background-opacity="0.1"
-   background-image="https://carpentries-incubator.github.io/r-geospatial-urban/fig/15-import-and-visualise-osm-data-rendered-Replicability-2.png"}
+## 2025: Where We Are Now {.smaller .scrollable background-opacity="0.1" background-image="https://carpentries-incubator.github.io/r-geospatial-urban/fig/15-import-and-visualise-osm-data-rendered-Replicability-2.png"}
 
 -   Maintainers of several Lessons. Maintainer Community Lead
 -   The team are all proficient with GitHub, GitHub Pages, and RMarkdown
 -   Frequently arguing with Gemini and Copilot about their... *creative*... code suggestions
 -   January: test-teaching [Data Carpentry for Urbanism](https://carpentries-incubator.github.io/r-geospatial-urban/) from the Dutch
 -   I use rStudio just about as often as ArcGIS Pro
+
+![.](images/carpentries.png)
 
 ------------------------------------------------------------------------
 
@@ -66,15 +64,13 @@ At the start of this journey, we were:
 -   **Strong local data sources:** official campus data and a recently removed golf course
 -   **Nothing new:** we completely mimicked the [existing Carpentries Lesson](https://datacarpentry.github.io/r-raster-vector-geospatial/).
 
-
 ![Map 1. 7 layers](images/map_01.png)
-
 
 ------------------------------------------------------------------------
 
 ## Overall Strategy: Reproducible, Runnable, Open, and Local {.smaller}
 
-Our goal is to create learning materials that are:
+Our goal is to create learning materials that are:{.smaller}
 
 -   **Properly Reproducible**: Anyone can regenerate the results.
 -   **Runnable**: The code works out-of-the-box, from start to finish.
@@ -97,6 +93,7 @@ Our goal is to create learning materials that are:
 ::: aside
 Check out the repo: [UCSBCarpentry/ucsb-ratlas](https://github.com/UCSBCarpentry/ucsb-ratlas)
 :::
+
 ------------------------------------------------------------------------
 
 ## The Power of "Local" {.smaller}
@@ -110,7 +107,6 @@ Check out the repo: [UCSBCarpentry/ucsb-ratlas](https://github.com/UCSBCarpentry
 
 ![Zooming in: our most difficult tryptic](images/map7_row_1.png)
 
-
 ------------------------------------------------------------------------
 
 ## Why Local Matters {.smaller}
@@ -119,7 +115,6 @@ Check out the repo: [UCSBCarpentry/ucsb-ratlas](https://github.com/UCSBCarpentry
 -   **Cognitive Scaffolding**: A key factor in geodata education is landscape scale. Working with a familiar landscape like our own campus makes abstract concepts much more concrete. It's easier to understand a 30m pixel NDVI when it represents a place you walk through every day.
 
 ![NCOS NDVI 2023-2024](images/map_12.png)
-
 
 ------------------------------------------------------------------------
 
