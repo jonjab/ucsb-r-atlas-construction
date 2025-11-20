@@ -11,62 +11,66 @@
     "href": "csv_slides.html#with-a-dash-of",
     "title": "Local Geospatial Data Carpentry: an R Atlas of Campus",
     "section": "With a Dash Of…",
-    "text": "With a Dash Of…\n\nOpenness: We lean heavily on open-source tools like R and Python.\nA Work in Progress: We’re actively improving how we teach reproducibility and project management.\nEating our own dogfood: We use Carpentries materials to teach Carpentries skills. (and I’ve never used quarto slides before)\n\n\nCharlotte, adoptable # A544520"
+    "text": "With a Dash Of…\n\nOpenness: We lean heavily on open-source tools like R and Python.\nA Work in Progress: We’re actively improving how we teach reproducibility and project management.\nEating our own dogfood: We use Carpentries materials to teach Carpentries skills. (and this is my first quarto slidedeck)\n\n\nCharlotte, adoptable and deaf# A544520"
   },
   {
     "objectID": "csv_slides.html#the-beginning",
     "href": "csv_slides.html#the-beginning",
     "title": "Local Geospatial Data Carpentry: an R Atlas of Campus",
     "section": "2019: the Beginning",
+<<<<<<< HEAD
     "text": "2019: the Beginning\nAt the start of the journey, I was:\n\nmaking groovy mistakes\nFresh from Carpentries Instructor training\nZero experience with GitHub or GitHub Pages\nExtremely rusty (&gt; 10 years) geostatistical R skills\n\nIt was a steep learning curve!"
+=======
+    "text": "2019: the Beginning\nAt the start of this journey, we were:\n\nmaking groovy mistakes\nJust minted our first Carpentries Instructors\nFew on the team had experience with GitHub or GitHub Pages\nI kept eyeing the geospatial lesson\npost-global pannini: we needed a team project"
+>>>>>>> 0841b7643c2676f90a8371ded3d4ea7c7cbb73ee
   },
   {
     "objectID": "csv_slides.html#where-we-are-now",
     "href": "csv_slides.html#where-we-are-now",
     "title": "Local Geospatial Data Carpentry: an R Atlas of Campus",
     "section": "2025: Where We Are Now",
-    "text": "2025: Where We Are Now\n\nRunning The Carpentries Workbench independently from a cloud-hosted Linux machine with RStudio.\nMaintainer and ad hoc chair of a committee editing a lesson from 2019.\nFrequently arguing with Gemini and Copilot about their… creative… code suggestions.\n\n\nMap 1. 7 layers"
+    "text": "2025: Where We Are Now\n\nMaintainers of several Lessons. Maintainer Community Lead\nThe team are all proficient with GitHub, GitHub Pages, and RMarkdown\nFrequently arguing with Gemini and Copilot about their… creative… code suggestions\nJanuary: test-teaching Data Carpentry for Urbanism from the Dutch\nI use rStudio just about as often as ArcGIS Pro"
   },
   {
     "objectID": "csv_slides.html#how-did-we-get-here",
     "href": "csv_slides.html#how-did-we-get-here",
     "title": "Local Geospatial Data Carpentry: an R Atlas of Campus",
     "section": "How did we get here?",
-    "text": "How did we get here?\n\nDedicated time and personnel: scheduled, weekly sessions\nStrong local data sources: official campus data and a recently removed golf course\nNothing new: we completely mimicked the existing Carpentries Lesson.\n\n\nZooming in: our most difficult tryptic"
+    "text": "How did we get here?\n\nDedicated time and personnel: scheduled, weekly sessions\nStrong local data sources: official campus data and a recently removed golf course\nNothing new: we completely mimicked the existing Carpentries Lesson.\n\n\nMap 1. 7 layers"
   },
   {
     "objectID": "csv_slides.html#overall-strategy-reproducible-runnable-open-and-local",
     "href": "csv_slides.html#overall-strategy-reproducible-runnable-open-and-local",
     "title": "Local Geospatial Data Carpentry: an R Atlas of Campus",
     "section": "Overall Strategy: Reproducible, Runnable, Open, and Local",
-    "text": "Overall Strategy: Reproducible, Runnable, Open, and Local\nOur goal is to create learning materials that are:\n\nProperly Reproducible: Anyone can regenerate the results.\nRunnable: The code works out-of-the-box, from start to finish.\nOpen: All materials are publicly accessible and licensed for reuse.\nLocal: The context and data are relevant to our community.\n\n\nEucalyptus, aka: tiki torches"
+    "text": "Overall Strategy: Reproducible, Runnable, Open, and Local\nOur goal is to create learning materials that are:\n\nProperly Reproducible: Anyone can regenerate the results.\nRunnable: The code works out-of-the-box, from start to finish.\nOpen: All materials are publicly accessible and licensed for reuse.\nLocal: The context and data are relevant to our community.\n\n\nWater, trees, bike paths"
   },
   {
     "objectID": "csv_slides.html#technical-implementation",
     "href": "csv_slides.html#technical-implementation",
     "title": "Local Geospatial Data Carpentry: an R Atlas of Campus",
     "section": "Technical Implementation",
-    "text": "Technical Implementation\n\n4 Planet Images\nrun_all_episodes.R: runs the entire lesson from start to finish.\nrun_all_maps.R: generates all map figures.\nClean Environments: We unload libraries and clear objects between each episode to ensure there are no hidden dependencies. rm(list=ls())\nBest-Practice Project Organization: A clear and consistent folder structure.\n\nCheck out the repo: UCSBCarpentry/ucsb-ratlas"
+    "text": "Technical Implementation\n\n\n\n4 Planet Images\n\n\n\nrun_all_episodes.R: runs the entire lesson from start to finish.\nrun_all_maps.R: generates all map figures.\nClean Environments: We unload libraries and clear objects between each episode to ensure there are no hidden dependencies. rm(list=ls())\nBest-Practice Project Organization: A clear and consistent folder structure.\n\n\n\nCheck out the repo: UCSBCarpentry/ucsb-ratlas"
   },
   {
     "objectID": "csv_slides.html#the-power-of-local",
     "href": "csv_slides.html#the-power-of-local",
     "title": "Local Geospatial Data Carpentry: an R Atlas of Campus",
     "section": "The Power of “Local”",
-    "text": "The Power of “Local”\n\nData Sources: We use readily available campus and public data.\n\nUCSB Library collections\nCampus facilities & ArcGIS Online\nNorth Campus Open Space (NCOS)\nCheadle Center for Biodiversity and Ecological Restoration (CCBER)\nCommon US government sources (e.g., census data)\n\n\n\nNCOS NDVI 2023-2024"
+    "text": "The Power of “Local”\n\nData Sources: We use readily available campus and public data.\n\nUCSB Library collections\nCampus facilities & ArcGIS Online\nNorth Campus Open Space (NCOS)\nCheadle Center for Biodiversity and Ecological Restoration (CCBER)\nCommon US government sources (e.g., census data)\n\n\n\nZooming in: our most difficult tryptic"
   },
   {
     "objectID": "csv_slides.html#why-local-matters",
     "href": "csv_slides.html#why-local-matters",
     "title": "Local Geospatial Data Carpentry: an R Atlas of Campus",
     "section": "Why Local Matters",
-    "text": "Why Local Matters\n\nOutreach & Awareness: It highlights amazing local resources.\nCognitive Scaffolding: A key factor in geodata education is landscape scale. Working with a familiar landscape like our own campus makes abstract concepts much more concrete. It’s easier to understand a 30m pixel NDVI when it represents a place you walk through every day.\n\n\nRed trees are highly flammable eucalytpus."
+    "text": "Why Local Matters\n\nOutreach & Awareness: It highlights amazing local resources.\nCognitive Scaffolding: A key factor in geodata education is landscape scale. Working with a familiar landscape like our own campus makes abstract concepts much more concrete. It’s easier to understand a 30m pixel NDVI when it represents a place you walk through every day.\n\n\nNCOS NDVI 2023-2024"
   },
   {
     "objectID": "csv_slides.html#whats-next",
     "href": "csv_slides.html#whats-next",
     "title": "Local Geospatial Data Carpentry: an R Atlas of Campus",
     "section": "What’s Next?",
-    "text": "What’s Next?\n\nCan two versions of a Workbench repository live side-by-side? We are currently working in multiple forks to figure this out.\nRepeat this entire lesson in QGIS.\nRepeat this entire lesson in ArcGIS Online.\n\nThe journey continues!\n\n\n\nGifford Fire. August 2025"
+    "text": "What’s Next?\n\nCan two versions of a Workbench repository live side-by-side? We are currently working in multiple forks to figure this out.\nRepeat this entire lesson in QGIS.\nRepeat this entire lesson in ArcGIS Online.\n\nThe journey continues!\n # Continue"
   }
 ]

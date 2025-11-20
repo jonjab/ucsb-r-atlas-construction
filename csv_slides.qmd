@@ -4,6 +4,8 @@ author: "UCSB Carpentry, Jon Jablonski"
 format: 
   revealjs:
     theme: [default, style.scss]
+    transition: concave
+    background-transition: fade
     title-slide-attributes:
       data-background-image: /images/web-hex.png
       data-background-size: contain
@@ -17,6 +19,7 @@ format:
 -   **Lessons**: Focused modules, typically 2 - 14 hours.
 -   **Episodes**: Bite-sized chunks, under 2 hours each.
 
+
 ![.](images/carpentries.png)
 
 ------------------------------------------------------------------------
@@ -25,34 +28,35 @@ format:
 
 -   **Openness**: We lean heavily on open-source tools like R and Python.
 -   **A Work in Progress**: We're actively improving how we teach reproducibility and project management.
--   **Eating our own dogfood**: We use Carpentries materials to teach Carpentries skills. (and I've never used quarto slides before)
+-   **Eating our own dogfood**: We use Carpentries materials to teach Carpentries skills. (and this is my first quarto slidedeck)
 
-![Charlotte, adoptable \# A544520](images/charlotte.jpg)
+![Charlotte, adoptable and deaf# A544520](images/charlotte.jpg)
 
 ------------------------------------------------------------------------
 
 ## 2019: the Beginning {.smaller}
 
-At the start of the journey, I was:
+At the start of this journey, we were:
 
 ![making groovy mistakes](images/IMG_5925.JPG){fig-align="right" width="200px"}
 
--   Fresh from Carpentries Instructor training
--   Zero experience with GitHub or GitHub Pages
--   Extremely rusty (\> 10 years) geostatistical R skills
-
-**It was a steep learning curve!**
-
+-   Just minted our first Carpentries Instructors
+-   Few on the team had experience with GitHub or GitHub Pages
+-   I kept eyeing the geospatial lesson
+-   post-global pannini: we needed a team project
 
 ------------------------------------------------------------------------
 
-## 2025: Where We Are Now {.smaller}
+## 2025: Where We Are Now{.smaller 
+   .scrollable 
+   background-opacity="0.1"
+   background-image="https://carpentries-incubator.github.io/r-geospatial-urban/fig/15-import-and-visualise-osm-data-rendered-Replicability-2.png"}
 
--   Running The Carpentries Workbench independently from a cloud-hosted Linux machine with RStudio.
--   Maintainer and *ad hoc* chair of a committee editing a lesson from 2019.
--   Frequently arguing with Gemini and Copilot about their... *creative*... code suggestions.
-
-![Map 1. 7 layers](images/map_01.png)
+-   Maintainers of several Lessons. Maintainer Community Lead
+-   The team are all proficient with GitHub, GitHub Pages, and RMarkdown
+-   Frequently arguing with Gemini and Copilot about their... *creative*... code suggestions
+-   January: test-teaching [Data Carpentry for Urbanism](https://carpentries-incubator.github.io/r-geospatial-urban/) from the Dutch
+-   I use rStudio just about as often as ArcGIS Pro
 
 ------------------------------------------------------------------------
 
@@ -62,7 +66,9 @@ At the start of the journey, I was:
 -   **Strong local data sources:** official campus data and a recently removed golf course
 -   **Nothing new:** we completely mimicked the [existing Carpentries Lesson](https://datacarpentry.github.io/r-raster-vector-geospatial/).
 
-![Zooming in: our most difficult tryptic](images/map7_row_1.png)
+
+![Map 1. 7 layers](images/map_01.png)
+
 
 ------------------------------------------------------------------------
 
@@ -75,7 +81,7 @@ Our goal is to create learning materials that are:
 -   **Open**: All materials are publicly accessible and licensed for reuse.
 -   **Local**: The context and data are relevant to our community.
 
-![Eucalyptus, aka: tiki torches](images/map_02.png)
+![Water, trees, bike paths](images/map2_TreeSpecies.png)
 
 ------------------------------------------------------------------------
 
@@ -88,9 +94,9 @@ Our goal is to create learning materials that are:
 -   **Clean Environments**: We unload libraries and clear objects between each episode to ensure there are no hidden dependencies. `rm(list=ls())`
 -   **Best-Practice Project Organization**: A clear and consistent folder structure.
 
+::: aside
 Check out the repo: [UCSBCarpentry/ucsb-ratlas](https://github.com/UCSBCarpentry/ucsb-ratlas)
-
-
+:::
 ------------------------------------------------------------------------
 
 ## The Power of "Local" {.smaller}
@@ -102,7 +108,8 @@ Check out the repo: [UCSBCarpentry/ucsb-ratlas](https://github.com/UCSBCarpentry
     -   Cheadle Center for Biodiversity and Ecological Restoration (CCBER)
     -   Common US government sources (e.g., census data)
 
-![NCOS NDVI 2023-2024](images/map_12.png)
+![Zooming in: our most difficult tryptic](images/map7_row_1.png)
+
 
 ------------------------------------------------------------------------
 
@@ -111,7 +118,8 @@ Check out the repo: [UCSBCarpentry/ucsb-ratlas](https://github.com/UCSBCarpentry
 -   **Outreach & Awareness**: It highlights amazing local resources.
 -   **Cognitive Scaffolding**: A key factor in geodata education is landscape scale. Working with a familiar landscape like our own campus makes abstract concepts much more concrete. It's easier to understand a 30m pixel NDVI when it represents a place you walk through every day.
 
-![Red trees are highly flammable eucalytpus.](images/map_02.png)
+![NCOS NDVI 2023-2024](images/map_12.png)
+
 
 ------------------------------------------------------------------------
 
@@ -123,4 +131,4 @@ Check out the repo: [UCSBCarpentry/ucsb-ratlas](https://github.com/UCSBCarpentry
 
 The journey continues!
 
-![Gifford Fire. August 2025](images/smoke_and_fog.png)
+![Gifford Fire. August 2025](images/smoke_and_fog.png) \# Continue
